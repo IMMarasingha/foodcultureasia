@@ -1,0 +1,13 @@
+.nav{
+	background-color:#A1E6C1;
+	overflow:hidden;
+	
+	}
+	a{
+		text-color:brown;
+		text-decoration:none;
+		padding:35px;
+				
+	}
+a:hover{background-color:yellow;
+		color:brown;}
