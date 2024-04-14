@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Asian Food Culture</title>
+<link rel="stylesheet" href="style.css">
+
+<body style="background-color:#E1D6C4">	
+<font face="Segoe UI Semibold" size="3">
+<header>
+<h1>Asian Food Culture</h1>
+
+</head>
+
+    <div class="search-container" align="right">
+        <form action="/search" method="get">
+            <input type="text" name="search" placeholder="Search...">
+            <input type="submit" value="Search">
+        </form></div>
+<br>
+
+<nav class="navbar" >
+  <a href="home.html">Home</a>
+  <a href="History.html">History</a>
+  <a href="Various_food_culture_in_Asia.html">Various food cultures in Asia</a>
+ 
+</nav>
+
+
+
+</header>
+</font>
+<br>
+<section>
+<center>
+  <img class="mySlides" src="C:\Users\LENOVO\Desktop\food culture\photo\srifood.jpg" style="width:50%" >
+  <img class="mySlides" src="C:\Users\LENOVO\Desktop\food culture\photo\Golgappa.jpg" style="width:50%" >
+  <img class="mySlides" src="C:\Users\LENOVO\Desktop\food culture\photo\japan.jpg" style="width:50%" >
+  <img class="mySlides" src="C:\Users\LENOVO\Desktop\food culture\photo\ma.jpg" style="width:50%" >
+  <img class="mySlides" src="C:\Users\LENOVO\Desktop\food culture\photo\chi.jpg" style="width:50%">
+  <img class="mySlides" src="C:\Users\LENOVO\Desktop\food culture\photo\pes.jpg" style="width:50%">
+  <img class="mySlides" src="C:\Users\LENOVO\Desktop\food culture\photo\indonesian.jpg" style="width:50%">
+</center>
+</section>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel,3000);
+}
+</script>
+<p><center><font face="times new roman" color="black"size="3">Asian cuisine is a diverse type of food that represents the various countries that make up the continent. 
+		It has a wide variety of flavors and ingredients, with staples such as rice, noodles, seafood, and vegetables. 	
+		Sharing food with others is common in Asian culture. Traditional cooking methods, such as grilling, stir-frying, and steaming,
+		preserve the natural flavors of the food. Harmony and balance between flavors, textures, and colors are highly valued in Asian cuisine,
+		producing visually appealing and delicious dishes.
+		The art of preparing and sharing food is deeply rooted in Asian culture.</center></font></p>
+		<br>
+		
+		<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+		
+		
+		<center>
+	<div class="container">		
+    <div class="box">
+        <img class="photo" src="C:\Users\LENOVO\Desktop\food culture\photo\facebook.png" alt="facebook">
+		<img class="photo" src="C:\Users\LENOVO\Desktop\food culture\photo\pinterest.png" alt="pinterest">
+		<img class="photo" src="C:\Users\LENOVO\Desktop\food culture\photo\linkedin.png" alt="linkedin">
+		<img class="photo" src="C:\Users\LENOVO\Desktop\food culture\photo\whatsapp.png" alt="whatsapp">
+		<img class="photo" src="C:\Users\LENOVO\Desktop\food culture\photo\twitter.png" alt="Photo 3">   
+	
+    </div>
+	</div>
+	</center>
+<footer class="footer">
+<font face="times new roman" size="4">	
+<p>&copy; Aian Food Culture.All rights reserved.</p>
+</footer>	
+</font>
+
+</body>
+</html>
